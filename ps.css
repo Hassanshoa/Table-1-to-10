@@ -1,0 +1,43 @@
+       *{
+        margin: 0;
+        padding: 0;
+       }
+       body{
+    display: grid;
+    text-align: center;
+    background-image: url(istockphoto-167174629-612x612.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 25px;
+    place-items: center;
+}
+input{
+    text-align: center;
+    font-style: oblique;
+    font-size: 25px;
+    margin-top: 10px;
+     border-radius: 40px;
+     border: 5px solid;
+     padding: 15px;
+}
+div{
+    display: grid;
+    place-items: center;
+    background-color: yellow;
+    width: 500px;
+    margin-top: 30px;
+    border: solid 5px;
+    border-radius: 15px;
+}
+button{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 5px solid;
+    font-style: oblique;
+    font-size: 25px;
+    
+
+}
